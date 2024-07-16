@@ -5,15 +5,11 @@ import FormSection from "./components/FormSection";
 import AnswerSection from "./components/AnswerSection";
 
 function App() {
-  const generateResponse = (newQuestion, setNewQuestion) => {
-    
-  }
   return (
     <div className="App">
       <header className="App-header">
         <h1>ChatGPT Clone</h1>
         <div className='header-section'>
-
         </div>
         <p>
           I am an automated question and answer system, designed to assist you

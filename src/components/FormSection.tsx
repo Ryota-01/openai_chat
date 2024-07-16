@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 
-export default function FormSection({ generateResponse }) {
+export default function FormSection() {
   const [newQuestion, setNewQuestion] = useState<string>("");
   console.log(newQuestion)
   return (
@@ -15,7 +15,7 @@ export default function FormSection({ generateResponse }) {
       ></textarea>
       <button
         className='btn'
-        onClick={() => generateResponse(newQuestion, setNewQuestion)}
+        // onClick={() => generateResponse(newQuestion, setNewQuestion)}
       >Generate Response</button>
     </div>
 
