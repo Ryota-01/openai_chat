@@ -2,7 +2,6 @@ import React, { useState } from 'react'
 
 export default function FormSection() {
   const [newQuestion, setNewQuestion] = useState<string>("");
-  console.log(newQuestion)
   return (
     <div>
       <textarea
