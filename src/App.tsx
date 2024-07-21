@@ -12,8 +12,6 @@ function App() {
         <div className='header-section'>
         </div>
         <p>
-          I am an automated question and answer system, designed to assist you
-          in finding relevant information. You are welcome to ask me any queries
         </p>
         <FormSection />
         <AnswerSection />
