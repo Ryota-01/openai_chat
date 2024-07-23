@@ -5,6 +5,7 @@ import FormSection from "./components/FormSection";
 import AnswerSection from "./components/AnswerSection";
 
 function App() {
+  console.log("test")
   return (
     <div className="App">
       <header className="App-header">
