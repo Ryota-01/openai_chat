@@ -14,7 +14,7 @@ export default function FormSection() {
       ></textarea>
       <button
         className='btn'
-        // onClick={() => generateResponse(newQuestion, setNewQuestion)}
+        onClick={() => console.log("onClick Here!")}
       >Generate Response</button>
     </div>
 
