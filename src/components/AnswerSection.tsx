@@ -1,6 +1,8 @@
 import React from 'react'
 
 export default function AnswerSection() {
+  console.log("answer!!");
+  
   return (
     <div>
       <hr className='hr-line' />
