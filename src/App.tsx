@@ -12,8 +12,6 @@ function App() {
         <h1>ChatGPT Clone</h1>
         <div className='header-section'>
         </div>
-        <p>
-        </p>
         <FormSection />
         <AnswerSection />
       </header>
