@@ -10,6 +10,7 @@ function App() {
     <div className="App">
       <header className="App-header">
         <h1>ChatGPT Clone</h1>
+        
         <FormSection />
         <AnswerSection />
       </header>
