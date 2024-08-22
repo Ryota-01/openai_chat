@@ -10,7 +10,7 @@ export default function FormSection() {
         className="form-control"
         placeholder="Ask me anyting"
         cols={30}
-        rows={10}
+        rows={20}
         value={newQuestion}
         onChange={(e) => setNewQuestion(e.target.value)}
       ></textarea>
