@@ -15,6 +15,7 @@ export default function FormSection() {
       <button
         className='btn'
         // onClick={() => console.log("onClick Here!!!")}
+        
       >Generate Response</button>
     </div>
 

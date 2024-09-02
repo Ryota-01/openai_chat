@@ -5,12 +5,12 @@ import FormSection from "./components/FormSection";
 import AnswerSection from "./components/AnswerSection";
 
 function App() {
-  console.log("test")
+  console.log("test");
+  
   return (
     <div className="App">
       <header className="App-header">
         <h1>ChatGPT Clone</h1>
-        
         <FormSection />
         <AnswerSection />
       </header>
